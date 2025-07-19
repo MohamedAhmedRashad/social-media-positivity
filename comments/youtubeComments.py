@@ -69,7 +69,7 @@ from googleapiclient.errors import HttpError
 import pandas as pd
 
 # Replace with your API key
-API_KEY = "AIzaSyCTRGPc0P3koEeXFLL5PPpXXDj58BffJVc"
+API_KEY = ""
 youtube = build("youtube", "v3", developerKey=API_KEY)
 
 def get_video_comments(video_id, max_comments=100):
